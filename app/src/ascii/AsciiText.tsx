@@ -77,7 +77,7 @@ class AsciiFilter {
     constructor(renderer: THREE.WebGLRenderer, { fontSize, fontFamily, charset, invert }: AsciiFilterOptions = {}) {
         this.renderer = renderer;
         this.domElement = document.createElement('div');
-        this.domElement.style.position = 'absolute';
+        this.domElement.style.position = 'relative';
         this.domElement.style.top = '0';
         this.domElement.style.left = '0';
         this.domElement.style.width = '100%';
