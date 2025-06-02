@@ -19,7 +19,7 @@ resource "aws_amplify_app" "my_ascii_react" {
           commands:
             - npm run build
       artifacts:
-        baseDirectory: app/build
+        baseDirectory: app/dist
         files:
           - '**/*'
       cache:
