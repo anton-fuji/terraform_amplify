@@ -13,3 +13,9 @@ sudo unzip terraform_1.11.4_linux_amd64.zip -d /usr/local/bin/
 terraform --version  # Terraform v1.11.4
 ```
 
+## Setting Your GitHub PAT(Personal Access Token)
+- Creat `infra/terraform.tfvars` 
+```sh
+github_oauth_token = "Your_GitHub_PAT"
+github_repository_url = "Your_GitHub_Repo_URL"
+```
