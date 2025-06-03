@@ -1,4 +1,6 @@
 # terraform_amplify
+## 構成イメージ
+![](img/構成図.png)
 
 **CloudShellを利用される方は、以下を実行してください。**
 ## Set up Terraform on CloudShell
